@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arriendo de excavadoras sobre orugas para faenas pesadas en minería y obra civil. Operadores calificados.">
+    <title>Arriendo de Excavadoras sobre Orugas - Mercosur SpA</title>
+    <link rel="icon" type="image/png"
+        href="https://mercosurspa.cl/wp-content/uploads/2024/07/cropped-logo_original-2048x897.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header-container">
+        <div class="page-inner">
+            <div class="top-header">
+                <div class="logo">
+                    <img src="https://mercosurspa.cl/wp-content/uploads/2024/08/logo_mercosur_bl-300x128.png"
+                        alt="Logo Mercosur">
+                </div>
+                <div class="contact-top">
+                    Llámenos al : <a href="tel:+56977688528">+56977688528</a> o al <a href="tel:+56977688526">+56977688526</a>
+                </div>
+            </div>
+            <nav class="nav-header">
+                <a href="index.html">Inicio</a>
+                <div class="dropdown">
+                    <a href="#" style="cursor: pointer;">Maquinarias</a>
+                    <div class="dropdown-content">
+                        <a href="motoniveladoras.html">Motoniveladoras</a>
+                        <a href="retroexcavadoras.html">Retroexcavadoras</a>
+                        <a href="cargador-frontal.html">Cargador Frontal</a>
+                        <a href="excavadoras-orugas.html">Excavadoras sobre orugas</a>
+                        <a href="rodillos-compactadores.html">Rodillos Compactadores</a>
+                        <a href="gruas-horquilla.html">Grúas Horquilla</a>
+                        <a href="alza-hombres.html">Alza Hombres</a>
+                        <a href="manipuladores-telescopicos.html">Manipuladores Telescópicos</a>
+                    </div>
+                </div>
+                <a href="transportes.html">Transportes</a>
+                <a href="sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('mercosur-maquinaria.jpeg') center/cover;">
+        <div class="hero-content">
+            <h1>Excavadoras sobre Orugas: Máxima Potencia en Terreno</h1>
+            <p>Descubre nuestra flota pesada Hitachi y Doosan. Maquinaria de gran tonelaje diseñada para movimientos masivos de tierra, minería y obras civiles de alta exigencia.</p>
+            <a href="#formulario-cotizacion" class="btn">Solicitar Cotización</a>
+        </div>
+    </section>
+
+    <!-- Grid -->
+    <section class="container">
+        <h2>Excavadoras Disponibles</h2>
+        <div class="maquinaria-grid">
+            
+            <!-- Hitachi -->
+            <div class="card">
+                <div class="slider-container" id="slider1">
+                    <div class="slider-wrapper">
+                        <img src="https://images.unsplash.com/photo-1581452934898-135e6baae826?auto=format&fit=crop&q=80&w=800" alt="Excavadora Hitachi">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>Excavadora Hitachi ZX210LC 7H</h3>
+                    <p>La serie ZAXIS-7 ofrece un rendimiento inigualable con un consumo de combustible optimizado. Proporciona una experiencia de operación suave, precisa y extremadamente cómoda para largas jornadas.</p>
+                    <ul style="text-align: left; margin-top: 20px; color: #555; line-height: 1.6; padding-left: 20px;">
+                        <li><strong>Marca:</strong> Hitachi</li>
+                        <li><strong>Modelo:</strong> ZX210LC 7H</li>
+                        <li><strong>Características:</strong> Alta tecnología hidráulica, chasis reforzado LC para mayor estabilidad.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Doosan -->
+            <div class="card">
+                <div class="slider-container" id="slider2">
+                    <div class="slider-wrapper">
+                        <img src="https://images.unsplash.com/photo-1510006851064-e6056cd0e3a8?auto=format&fit=crop&q=80&w=800" alt="Excavadora Doosan">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3>Excavadora Doosan DC225LC</h3>
+                    <p>Equipos robustos que garantizan un rendimiento superior bajo las condiciones más duras. Su motor de gran cilindrada asegura un par excepcional a bajas revoluciones.</p>
+                    <ul style="text-align: left; margin-top: 20px; color: #555; line-height: 1.6; padding-left: 20px;">
+                        <li><strong>Marca:</strong> Doosan</li>
+                        <li><strong>Modelo:</strong> DC225LC</li>
+                        <li><strong>Características:</strong> Excelente fuerza de arranque, diseño pensado para máxima durabilidad y bajo mantenimiento.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Formulario -->
+    <section class="form-section" id="formulario-cotizacion">
+        <h2>Solicita tu Cotización</h2>
+        <form action="#" onsubmit="event.preventDefault(); alert('¡Gracias! Hemos recibido tu mensaje. Te contactaremos a la brevedad.'); this.reset();">
+            <input type="hidden" name="_subject" value="Cotización Excavadoras Orugas - Mercosur SpA">
+            <input type="text" name="nombre" placeholder="Nombre y apellido" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <input type="tel" name="telefono" placeholder="Teléfono">
+            <select name="opcion">
+                <option>Selecciona Modelo de Interés</option>
+                <option>Hitachi ZX210LC 7H</option>
+                <option>Doosan DC225LC</option>
+            </select>
+            <textarea name="mensaje" placeholder="Mensaje o comentario" rows="4"></textarea>
+            <button type="submit" class="btn">ENVIAR</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="page-inner">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <img src="https://mercosurspa.cl/wp-content/uploads/2024/07/cropped-logo_original-2048x897.png"
+                        alt="Logo Mercosur">
+                </div>
+                <div class="footer-col">
+                    <h3>Mapa del sitio</h3>
+                    <ul>
+                        <li><span>></span> <a href="index.html" style="color: white; text-decoration: none;">Inicio</a></li>
+                        <li><span>></span> <a href="excavadoras-orugas.html" style="color: white; text-decoration: none;">Excavadoras sobre Orugas</a></li>
+                        <li><span>></span> <a href="transportes.html" style="color: white; text-decoration: none;">Transporte</a></li>
+                        <li><span>></span> <a href="sobre-nosotros.html" style="color: white; text-decoration: none;">Sobre Nosotros</a></li>
+                        <li><span>></span> <a href="contacto.html" style="color: white; text-decoration: none;">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contacto</h3>
+                    <p>&#9742; <a href="tel:+56977688528">+56977688528</a></p>
+                    <p>&#9742; <a href="tel:+56977688526">+56977688526</a></p>
+                    <p>&#9993; <a href="mailto:fperez@mercosurspa.cl">fperez@mercosurspa.cl</a></p>
+                    <p>&#128205; <a
+                            href="https://maps.google.com/?q=Sector+La+Negra,+Ruta+28.+Camino+La+Negra,+Antofagasta"
+                            target="_blank" rel="noopener noreferrer">Sector La Negra, Ruta 28. Camino La Negra.</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Diseñado por Digitals, Agencia & Consultora</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
